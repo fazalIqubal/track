@@ -1,0 +1,199 @@
+.total-tenant{
+    .ant-statistic-title, .ant-statistic-content{
+        color: #5e5e5e ;
+        font-size: 18px ;
+        font-weight: 500;
+    }
+}
+.active-tenant{
+    .ant-statistic-title, .ant-statistic-content{
+        color: #1abb9c ;
+        font-size: 18px ;
+        font-weight: 500;
+    }
+}
+.inactive-tenant{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .ant-statistic-title, .ant-statistic-content{
+        color: #f39c12 ;
+        font-size: 18px ;
+        font-weight: 500;
+    }
+}
+.deleted-tenant{
+    .ant-statistic-title, .ant-statistic-content{
+        color: #dd4b39 ;
+        font-size: 18px ;
+        font-weight: 500;
+    }
+}
+.icon-container{
+    text-align: right;
+    margin-top: 15px;
+}
+.tenants-list-container, .issue-status-by-assignee{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .table-wrapper{
+        border: 1px solid #dfdfdf;
+        background-color: white;
+        margin-top: 15px;
+    }
+    .tenant-heading-container{
+        padding: 15px 0px 15px 0px;
+        background-color: #FAFAFA;
+    }
+    .ant-col-6{
+        text-align: center;
+    }
+    p{
+        margin-top: 10px;
+    }
+    .ant-card-head-title{
+        font-family: "nunito-regular", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif ;
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .tenant-list-headings{
+        font-size: 16px;
+        font-weight: 600;
+    }
+   
+   
+}
+.tenant-overview-cards{
+    .ant-card-body {
+        padding: 20px ;
+    }
+    .ant-table-thead th{
+        font-size: 18px;
+    }
+    .ant-table-tbody td{
+        font-size: 15px;
+    }
+}
+.membershipPlan-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .ant-card-head-title{
+        font-family: "nunito-regular", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif ;
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .ant-row{
+        margin: 5px;
+        
+    }
+    .view-membershipPlan{
+        float: right
+    }
+    .ant-card.ant-card-bordered{
+        width: 100% !important;
+    } 
+}
+.sprint-progress{
+    text-align: center;
+    h5{
+        padding: 15px;
+    }
+    .ant-progress{
+        padding-bottom: 20px;
+    }
+}
+.left-dash-content{
+    .site-statistic-demo-card, .tenants-list-container, .issue-status-by-assignee, .line-chart{
+        width: 98%;
+    }
+    .ant-card-body {
+        padding: 24px;
+    }
+    .apexcharts-title-text{
+        font-size: 22px ;
+    } 
+}
+.pie-chart{
+    height: 415px;
+}
+.generic-pie-width{
+        margin-top: 40px;
+}
+.recent-updates{
+    .ant-card-body{
+        padding: 0
+    }
+    .ant-row{
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+    .heading{
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .ant-tag {
+        float: right;
+    }
+}
+.left-pane{
+    .ant-card-body{
+        padding-top: 24px;
+    }
+    .apexcharts-title-text{
+        font-size: 22px ;
+    }
+}
+.sprint-name{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.pie-chart{
+    h5{
+        text-align: center;
+        font-family: "nunito-regular", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 15px;
+    }
+}
+.apexcharts-title-text{
+    font-family: "nunito-regular", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+        font-size: 15px;
+}
+.ant-table-content, .ant-card-bordered{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+}
+.site-layout{
+    margin-top: 65px;
+}
+.ant-card-bordered {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px !important;
+    height: 100%;
+}
+.tenants-statistics{
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+}
+.tenants-list{
+    font-size: 22px;
+    font-weight: 600;
+}
+.view-all-link{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+.tenant-list-data{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}

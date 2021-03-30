@@ -1,0 +1,11 @@
+flask
+flask-sqlalchemy
+flask-migrate
+flask-script
+Flask-API
+flask_cors
+bs4
+lxml
+flask_swagger
+psycopg2
+pycryptodomex

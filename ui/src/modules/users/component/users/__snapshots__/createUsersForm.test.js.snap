@@ -1,0 +1,1689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>Settings --- REACT-REDUX (Mount + wrapping in <Provider>) +++ render the connected(UsersForm) component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(UsersForm)>
+    <UsersForm
+      dispatch={[MockFunction]}
+      editedUserData={Object {}}
+    >
+      <ForwardRef(InternalForm)
+        id="users-form"
+        layout="vertical"
+        validateMessages={
+          Object {
+            "number": Object {
+              "range": "\${label} must be between \${min} and \${max} the pattern should be",
+            },
+            "required": "\${label} is required!",
+            "string": Object {
+              "range": "\${label} must be between \${min} and \${max}",
+            },
+            "types": Object {
+              "email": "\${label} is not validate email!",
+              "number": "\${label} is a number",
+              "string": "\${label} is not a validate!",
+            },
+          }
+        }
+      >
+        <SizeContextProvider>
+          <ForwardRef(Form)
+            className="ant-form ant-form-vertical"
+            form={
+              Object {
+                "__INTERNAL__": Object {
+                  "itemRef": [Function],
+                  "name": undefined,
+                },
+                "getFieldError": [Function],
+                "getFieldInstance": [Function],
+                "getFieldValue": [Function],
+                "getFieldsError": [Function],
+                "getFieldsValue": [Function],
+                "getInternalHooks": [Function],
+                "isFieldTouched": [Function],
+                "isFieldValidating": [Function],
+                "isFieldsTouched": [Function],
+                "isFieldsValidating": [Function],
+                "resetFields": [Function],
+                "scrollToField": [Function],
+                "setFields": [Function],
+                "setFieldsValue": [Function],
+                "submit": [Function],
+                "validateFields": [Function],
+              }
+            }
+            id="users-form"
+            onFinishFailed={[Function]}
+            validateMessages={
+              Object {
+                "number": Object {
+                  "range": "\${label} must be between \${min} and \${max} the pattern should be",
+                },
+                "required": "\${label} is required!",
+                "string": Object {
+                  "range": "\${label} must be between \${min} and \${max}",
+                },
+                "types": Object {
+                  "email": "\${label} is not validate email!",
+                  "number": "\${label} is a number",
+                  "string": "\${label} is not a validate!",
+                },
+              }
+            }
+          >
+            <form
+              className="ant-form ant-form-vertical"
+              id="users-form"
+              onSubmit={[Function]}
+            >
+              <FormItem
+                label="First Name"
+                name="first_name"
+                rules={
+                  Array [
+                    Object {
+                      "required": true,
+                    },
+                    Object {
+                      "max": 30,
+                      "min": 3,
+                      "type": "string",
+                    },
+                  ]
+                }
+              >
+                <WrapperField
+                  label="First Name"
+                  messageVariables={
+                    Object {
+                      "label": "First Name",
+                    }
+                  }
+                  name="first_name"
+                  onReset={[Function]}
+                  rules={
+                    Array [
+                      Object {
+                        "required": true,
+                      },
+                      Object {
+                        "max": 30,
+                        "min": 3,
+                        "type": "string",
+                      },
+                    ]
+                  }
+                  trigger="onChange"
+                  validateTrigger="onChange"
+                >
+                  <Field
+                    key="_first_name"
+                    label="First Name"
+                    messageVariables={
+                      Object {
+                        "label": "First Name",
+                      }
+                    }
+                    name={
+                      Array [
+                        "first_name",
+                      ]
+                    }
+                    onReset={[Function]}
+                    rules={
+                      Array [
+                        Object {
+                          "required": true,
+                        },
+                        Object {
+                          "max": 30,
+                          "min": 3,
+                          "type": "string",
+                        },
+                      ]
+                    }
+                    trigger="onChange"
+                    validateTrigger="onChange"
+                    valuePropName="value"
+                  >
+                    <Row
+                      className="ant-form-item"
+                      key="row"
+                    >
+                      <div
+                        className="ant-row ant-form-item"
+                        style={Object {}}
+                      >
+                        <FormItemLabel
+                          htmlFor="first_name"
+                          label="First Name"
+                          name="first_name"
+                          prefixCls="ant-form"
+                          required={true}
+                          requiredMark={true}
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                        >
+                          <Col
+                            className="ant-form-item-label"
+                          >
+                            <div
+                              className="ant-col ant-form-item-label"
+                              style={Object {}}
+                            >
+                              <label
+                                className="ant-form-item-required"
+                                htmlFor="first_name"
+                                title="First Name"
+                              >
+                                First Name
+                              </label>
+                            </div>
+                          </Col>
+                        </FormItemLabel>
+                        <FormItemInput
+                          errors={Array []}
+                          label="First Name"
+                          name={
+                            Array [
+                              "first_name",
+                            ]
+                          }
+                          onDomErrorVisibleChange={[Function]}
+                          prefixCls="ant-form"
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                          touched={false}
+                          validateStatus=""
+                          validating={false}
+                        >
+                          <Col
+                            className="ant-form-item-control"
+                          >
+                            <div
+                              className="ant-col ant-form-item-control"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-form-item-control-input"
+                              >
+                                <div
+                                  className="ant-form-item-control-input-content"
+                                >
+                                  <Component
+                                    update={1}
+                                  >
+                                    <Input
+                                      id="first_name"
+                                      name="first_name"
+                                      onChange={[Function]}
+                                      placeholder="Enter first name"
+                                      type="text"
+                                    >
+                                      <ClearableLabeledInput
+                                        bordered={true}
+                                        element={
+                                          <input
+                                            className="ant-input"
+                                            id="first_name"
+                                            name="first_name"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="Enter first name"
+                                            type="text"
+                                          />
+                                        }
+                                        focused={false}
+                                        handleReset={[Function]}
+                                        id="first_name"
+                                        inputType="input"
+                                        name="first_name"
+                                        onChange={[Function]}
+                                        placeholder="Enter first name"
+                                        prefixCls="ant-input"
+                                        triggerFocus={[Function]}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <input
+                                          className="ant-input"
+                                          id="first_name"
+                                          name="first_name"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="Enter first name"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </ClearableLabeledInput>
+                                    </Input>
+                                  </Component>
+                                </div>
+                              </div>
+                              <ForwardRef
+                                motionAppear={true}
+                                motionDeadline={500}
+                                motionName="show-help"
+                                onLeaveEnd={[Function]}
+                                removeOnLeave={true}
+                                visible={false}
+                              >
+                                <CSSMotion
+                                  internalRef={null}
+                                  motionAppear={true}
+                                  motionDeadline={500}
+                                  motionEnter={true}
+                                  motionLeave={true}
+                                  motionName="show-help"
+                                  onLeaveEnd={[Function]}
+                                  removeOnLeave={true}
+                                  visible={false}
+                                />
+                              </ForwardRef>
+                            </div>
+                          </Col>
+                        </FormItemInput>
+                      </div>
+                    </Row>
+                  </Field>
+                </WrapperField>
+              </FormItem>
+              <FormItem
+                label="Last Name"
+                name="last_name"
+                rules={
+                  Array [
+                    Object {
+                      "required": true,
+                    },
+                    Object {
+                      "max": 30,
+                      "min": 3,
+                      "type": "string",
+                    },
+                  ]
+                }
+              >
+                <WrapperField
+                  label="Last Name"
+                  messageVariables={
+                    Object {
+                      "label": "Last Name",
+                    }
+                  }
+                  name="last_name"
+                  onReset={[Function]}
+                  rules={
+                    Array [
+                      Object {
+                        "required": true,
+                      },
+                      Object {
+                        "max": 30,
+                        "min": 3,
+                        "type": "string",
+                      },
+                    ]
+                  }
+                  trigger="onChange"
+                  validateTrigger="onChange"
+                >
+                  <Field
+                    key="_last_name"
+                    label="Last Name"
+                    messageVariables={
+                      Object {
+                        "label": "Last Name",
+                      }
+                    }
+                    name={
+                      Array [
+                        "last_name",
+                      ]
+                    }
+                    onReset={[Function]}
+                    rules={
+                      Array [
+                        Object {
+                          "required": true,
+                        },
+                        Object {
+                          "max": 30,
+                          "min": 3,
+                          "type": "string",
+                        },
+                      ]
+                    }
+                    trigger="onChange"
+                    validateTrigger="onChange"
+                    valuePropName="value"
+                  >
+                    <Row
+                      className="ant-form-item"
+                      key="row"
+                    >
+                      <div
+                        className="ant-row ant-form-item"
+                        style={Object {}}
+                      >
+                        <FormItemLabel
+                          htmlFor="last_name"
+                          label="Last Name"
+                          name="last_name"
+                          prefixCls="ant-form"
+                          required={true}
+                          requiredMark={true}
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                        >
+                          <Col
+                            className="ant-form-item-label"
+                          >
+                            <div
+                              className="ant-col ant-form-item-label"
+                              style={Object {}}
+                            >
+                              <label
+                                className="ant-form-item-required"
+                                htmlFor="last_name"
+                                title="Last Name"
+                              >
+                                Last Name
+                              </label>
+                            </div>
+                          </Col>
+                        </FormItemLabel>
+                        <FormItemInput
+                          errors={Array []}
+                          label="Last Name"
+                          name={
+                            Array [
+                              "last_name",
+                            ]
+                          }
+                          onDomErrorVisibleChange={[Function]}
+                          prefixCls="ant-form"
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                          touched={false}
+                          validateStatus=""
+                          validating={false}
+                        >
+                          <Col
+                            className="ant-form-item-control"
+                          >
+                            <div
+                              className="ant-col ant-form-item-control"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-form-item-control-input"
+                              >
+                                <div
+                                  className="ant-form-item-control-input-content"
+                                >
+                                  <Component
+                                    update={1}
+                                  >
+                                    <Input
+                                      id="last_name"
+                                      name="last_name"
+                                      onChange={[Function]}
+                                      placeholder="Enter last name"
+                                      type="text"
+                                    >
+                                      <ClearableLabeledInput
+                                        bordered={true}
+                                        element={
+                                          <input
+                                            className="ant-input"
+                                            id="last_name"
+                                            name="last_name"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="Enter last name"
+                                            type="text"
+                                          />
+                                        }
+                                        focused={false}
+                                        handleReset={[Function]}
+                                        id="last_name"
+                                        inputType="input"
+                                        name="last_name"
+                                        onChange={[Function]}
+                                        placeholder="Enter last name"
+                                        prefixCls="ant-input"
+                                        triggerFocus={[Function]}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <input
+                                          className="ant-input"
+                                          id="last_name"
+                                          name="last_name"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="Enter last name"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </ClearableLabeledInput>
+                                    </Input>
+                                  </Component>
+                                </div>
+                              </div>
+                              <ForwardRef
+                                motionAppear={true}
+                                motionDeadline={500}
+                                motionName="show-help"
+                                onLeaveEnd={[Function]}
+                                removeOnLeave={true}
+                                visible={false}
+                              >
+                                <CSSMotion
+                                  internalRef={null}
+                                  motionAppear={true}
+                                  motionDeadline={500}
+                                  motionEnter={true}
+                                  motionLeave={true}
+                                  motionName="show-help"
+                                  onLeaveEnd={[Function]}
+                                  removeOnLeave={true}
+                                  visible={false}
+                                />
+                              </ForwardRef>
+                            </div>
+                          </Col>
+                        </FormItemInput>
+                      </div>
+                    </Row>
+                  </Field>
+                </WrapperField>
+              </FormItem>
+              <FormItem
+                label="Address"
+                name="address"
+                rules={
+                  Array [
+                    Object {
+                      "required": true,
+                    },
+                    Object {
+                      "max": 30,
+                      "min": 3,
+                      "type": "string",
+                    },
+                  ]
+                }
+              >
+                <WrapperField
+                  label="Address"
+                  messageVariables={
+                    Object {
+                      "label": "Address",
+                    }
+                  }
+                  name="address"
+                  onReset={[Function]}
+                  rules={
+                    Array [
+                      Object {
+                        "required": true,
+                      },
+                      Object {
+                        "max": 30,
+                        "min": 3,
+                        "type": "string",
+                      },
+                    ]
+                  }
+                  trigger="onChange"
+                  validateTrigger="onChange"
+                >
+                  <Field
+                    key="_address"
+                    label="Address"
+                    messageVariables={
+                      Object {
+                        "label": "Address",
+                      }
+                    }
+                    name={
+                      Array [
+                        "address",
+                      ]
+                    }
+                    onReset={[Function]}
+                    rules={
+                      Array [
+                        Object {
+                          "required": true,
+                        },
+                        Object {
+                          "max": 30,
+                          "min": 3,
+                          "type": "string",
+                        },
+                      ]
+                    }
+                    trigger="onChange"
+                    validateTrigger="onChange"
+                    valuePropName="value"
+                  >
+                    <Row
+                      className="ant-form-item"
+                      key="row"
+                    >
+                      <div
+                        className="ant-row ant-form-item"
+                        style={Object {}}
+                      >
+                        <FormItemLabel
+                          htmlFor="address"
+                          label="Address"
+                          name="address"
+                          prefixCls="ant-form"
+                          required={true}
+                          requiredMark={true}
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                        >
+                          <Col
+                            className="ant-form-item-label"
+                          >
+                            <div
+                              className="ant-col ant-form-item-label"
+                              style={Object {}}
+                            >
+                              <label
+                                className="ant-form-item-required"
+                                htmlFor="address"
+                                title="Address"
+                              >
+                                Address
+                              </label>
+                            </div>
+                          </Col>
+                        </FormItemLabel>
+                        <FormItemInput
+                          errors={Array []}
+                          label="Address"
+                          name={
+                            Array [
+                              "address",
+                            ]
+                          }
+                          onDomErrorVisibleChange={[Function]}
+                          prefixCls="ant-form"
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                          touched={false}
+                          validateStatus=""
+                          validating={false}
+                        >
+                          <Col
+                            className="ant-form-item-control"
+                          >
+                            <div
+                              className="ant-col ant-form-item-control"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-form-item-control-input"
+                              >
+                                <div
+                                  className="ant-form-item-control-input-content"
+                                >
+                                  <Component
+                                    update={1}
+                                  >
+                                    <Input
+                                      id="address"
+                                      name="address"
+                                      onChange={[Function]}
+                                      placeholder="Enter address"
+                                      type="text"
+                                    >
+                                      <ClearableLabeledInput
+                                        bordered={true}
+                                        element={
+                                          <input
+                                            className="ant-input"
+                                            id="address"
+                                            name="address"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="Enter address"
+                                            type="text"
+                                          />
+                                        }
+                                        focused={false}
+                                        handleReset={[Function]}
+                                        id="address"
+                                        inputType="input"
+                                        name="address"
+                                        onChange={[Function]}
+                                        placeholder="Enter address"
+                                        prefixCls="ant-input"
+                                        triggerFocus={[Function]}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <input
+                                          className="ant-input"
+                                          id="address"
+                                          name="address"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="Enter address"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </ClearableLabeledInput>
+                                    </Input>
+                                  </Component>
+                                </div>
+                              </div>
+                              <ForwardRef
+                                motionAppear={true}
+                                motionDeadline={500}
+                                motionName="show-help"
+                                onLeaveEnd={[Function]}
+                                removeOnLeave={true}
+                                visible={false}
+                              >
+                                <CSSMotion
+                                  internalRef={null}
+                                  motionAppear={true}
+                                  motionDeadline={500}
+                                  motionEnter={true}
+                                  motionLeave={true}
+                                  motionName="show-help"
+                                  onLeaveEnd={[Function]}
+                                  removeOnLeave={true}
+                                  visible={false}
+                                />
+                              </ForwardRef>
+                            </div>
+                          </Col>
+                        </FormItemInput>
+                      </div>
+                    </Row>
+                  </Field>
+                </WrapperField>
+              </FormItem>
+              <FormItem
+                label="Username"
+                name="username"
+                rules={
+                  Array [
+                    Object {
+                      "required": true,
+                    },
+                    Object {
+                      "max": 30,
+                      "min": 3,
+                      "type": "string",
+                    },
+                  ]
+                }
+              >
+                <WrapperField
+                  label="Username"
+                  messageVariables={
+                    Object {
+                      "label": "Username",
+                    }
+                  }
+                  name="username"
+                  onReset={[Function]}
+                  rules={
+                    Array [
+                      Object {
+                        "required": true,
+                      },
+                      Object {
+                        "max": 30,
+                        "min": 3,
+                        "type": "string",
+                      },
+                    ]
+                  }
+                  trigger="onChange"
+                  validateTrigger="onChange"
+                >
+                  <Field
+                    key="_username"
+                    label="Username"
+                    messageVariables={
+                      Object {
+                        "label": "Username",
+                      }
+                    }
+                    name={
+                      Array [
+                        "username",
+                      ]
+                    }
+                    onReset={[Function]}
+                    rules={
+                      Array [
+                        Object {
+                          "required": true,
+                        },
+                        Object {
+                          "max": 30,
+                          "min": 3,
+                          "type": "string",
+                        },
+                      ]
+                    }
+                    trigger="onChange"
+                    validateTrigger="onChange"
+                    valuePropName="value"
+                  >
+                    <Row
+                      className="ant-form-item"
+                      key="row"
+                    >
+                      <div
+                        className="ant-row ant-form-item"
+                        style={Object {}}
+                      >
+                        <FormItemLabel
+                          htmlFor="username"
+                          label="Username"
+                          name="username"
+                          prefixCls="ant-form"
+                          required={true}
+                          requiredMark={true}
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                        >
+                          <Col
+                            className="ant-form-item-label"
+                          >
+                            <div
+                              className="ant-col ant-form-item-label"
+                              style={Object {}}
+                            >
+                              <label
+                                className="ant-form-item-required"
+                                htmlFor="username"
+                                title="Username"
+                              >
+                                Username
+                              </label>
+                            </div>
+                          </Col>
+                        </FormItemLabel>
+                        <FormItemInput
+                          errors={Array []}
+                          label="Username"
+                          name={
+                            Array [
+                              "username",
+                            ]
+                          }
+                          onDomErrorVisibleChange={[Function]}
+                          prefixCls="ant-form"
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 30,
+                                "min": 3,
+                                "type": "string",
+                              },
+                            ]
+                          }
+                          touched={false}
+                          validateStatus=""
+                          validating={false}
+                        >
+                          <Col
+                            className="ant-form-item-control"
+                          >
+                            <div
+                              className="ant-col ant-form-item-control"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-form-item-control-input"
+                              >
+                                <div
+                                  className="ant-form-item-control-input-content"
+                                >
+                                  <Component
+                                    update={1}
+                                  >
+                                    <Input
+                                      id="username"
+                                      name="username"
+                                      onChange={[Function]}
+                                      placeholder="Enter username"
+                                      type="text"
+                                    >
+                                      <ClearableLabeledInput
+                                        bordered={true}
+                                        element={
+                                          <input
+                                            className="ant-input"
+                                            id="username"
+                                            name="username"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="Enter username"
+                                            type="text"
+                                          />
+                                        }
+                                        focused={false}
+                                        handleReset={[Function]}
+                                        id="username"
+                                        inputType="input"
+                                        name="username"
+                                        onChange={[Function]}
+                                        placeholder="Enter username"
+                                        prefixCls="ant-input"
+                                        triggerFocus={[Function]}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <input
+                                          className="ant-input"
+                                          id="username"
+                                          name="username"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="Enter username"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </ClearableLabeledInput>
+                                    </Input>
+                                  </Component>
+                                </div>
+                              </div>
+                              <ForwardRef
+                                motionAppear={true}
+                                motionDeadline={500}
+                                motionName="show-help"
+                                onLeaveEnd={[Function]}
+                                removeOnLeave={true}
+                                visible={false}
+                              >
+                                <CSSMotion
+                                  internalRef={null}
+                                  motionAppear={true}
+                                  motionDeadline={500}
+                                  motionEnter={true}
+                                  motionLeave={true}
+                                  motionName="show-help"
+                                  onLeaveEnd={[Function]}
+                                  removeOnLeave={true}
+                                  visible={false}
+                                />
+                              </ForwardRef>
+                            </div>
+                          </Col>
+                        </FormItemInput>
+                      </div>
+                    </Row>
+                  </Field>
+                </WrapperField>
+              </FormItem>
+              <FormItem
+                label="Mobile"
+                name="mobile"
+                rules={
+                  Array [
+                    Object {
+                      "required": true,
+                    },
+                    Object {
+                      "max": 10,
+                    },
+                    Object {
+                      "message": "Please enter valid mobile number !",
+                      "pattern": /\\[2-9\\]\\{2\\}\\\\d\\{8\\}/,
+                    },
+                  ]
+                }
+              >
+                <WrapperField
+                  label="Mobile"
+                  messageVariables={
+                    Object {
+                      "label": "Mobile",
+                    }
+                  }
+                  name="mobile"
+                  onReset={[Function]}
+                  rules={
+                    Array [
+                      Object {
+                        "required": true,
+                      },
+                      Object {
+                        "max": 10,
+                      },
+                      Object {
+                        "message": "Please enter valid mobile number !",
+                        "pattern": /\\[2-9\\]\\{2\\}\\\\d\\{8\\}/,
+                      },
+                    ]
+                  }
+                  trigger="onChange"
+                  validateTrigger="onChange"
+                >
+                  <Field
+                    key="_mobile"
+                    label="Mobile"
+                    messageVariables={
+                      Object {
+                        "label": "Mobile",
+                      }
+                    }
+                    name={
+                      Array [
+                        "mobile",
+                      ]
+                    }
+                    onReset={[Function]}
+                    rules={
+                      Array [
+                        Object {
+                          "required": true,
+                        },
+                        Object {
+                          "max": 10,
+                        },
+                        Object {
+                          "message": "Please enter valid mobile number !",
+                          "pattern": /\\[2-9\\]\\{2\\}\\\\d\\{8\\}/,
+                        },
+                      ]
+                    }
+                    trigger="onChange"
+                    validateTrigger="onChange"
+                    valuePropName="value"
+                  >
+                    <Row
+                      className="ant-form-item"
+                      key="row"
+                    >
+                      <div
+                        className="ant-row ant-form-item"
+                        style={Object {}}
+                      >
+                        <FormItemLabel
+                          htmlFor="mobile"
+                          label="Mobile"
+                          name="mobile"
+                          prefixCls="ant-form"
+                          required={true}
+                          requiredMark={true}
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 10,
+                              },
+                              Object {
+                                "message": "Please enter valid mobile number !",
+                                "pattern": /\\[2-9\\]\\{2\\}\\\\d\\{8\\}/,
+                              },
+                            ]
+                          }
+                        >
+                          <Col
+                            className="ant-form-item-label"
+                          >
+                            <div
+                              className="ant-col ant-form-item-label"
+                              style={Object {}}
+                            >
+                              <label
+                                className="ant-form-item-required"
+                                htmlFor="mobile"
+                                title="Mobile"
+                              >
+                                Mobile
+                              </label>
+                            </div>
+                          </Col>
+                        </FormItemLabel>
+                        <FormItemInput
+                          errors={Array []}
+                          label="Mobile"
+                          name={
+                            Array [
+                              "mobile",
+                            ]
+                          }
+                          onDomErrorVisibleChange={[Function]}
+                          prefixCls="ant-form"
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "max": 10,
+                              },
+                              Object {
+                                "message": "Please enter valid mobile number !",
+                                "pattern": /\\[2-9\\]\\{2\\}\\\\d\\{8\\}/,
+                              },
+                            ]
+                          }
+                          touched={false}
+                          validateStatus=""
+                          validating={false}
+                        >
+                          <Col
+                            className="ant-form-item-control"
+                          >
+                            <div
+                              className="ant-col ant-form-item-control"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-form-item-control-input"
+                              >
+                                <div
+                                  className="ant-form-item-control-input-content"
+                                >
+                                  <Component
+                                    update={1}
+                                  >
+                                    <Input
+                                      id="mobile"
+                                      name="mobile"
+                                      onChange={[Function]}
+                                      placeholder="Enter mobile number"
+                                      type="text"
+                                    >
+                                      <ClearableLabeledInput
+                                        bordered={true}
+                                        element={
+                                          <input
+                                            className="ant-input"
+                                            id="mobile"
+                                            name="mobile"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="Enter mobile number"
+                                            type="text"
+                                          />
+                                        }
+                                        focused={false}
+                                        handleReset={[Function]}
+                                        id="mobile"
+                                        inputType="input"
+                                        name="mobile"
+                                        onChange={[Function]}
+                                        placeholder="Enter mobile number"
+                                        prefixCls="ant-input"
+                                        triggerFocus={[Function]}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <input
+                                          className="ant-input"
+                                          id="mobile"
+                                          name="mobile"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="Enter mobile number"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </ClearableLabeledInput>
+                                    </Input>
+                                  </Component>
+                                </div>
+                              </div>
+                              <ForwardRef
+                                motionAppear={true}
+                                motionDeadline={500}
+                                motionName="show-help"
+                                onLeaveEnd={[Function]}
+                                removeOnLeave={true}
+                                visible={false}
+                              >
+                                <CSSMotion
+                                  internalRef={null}
+                                  motionAppear={true}
+                                  motionDeadline={500}
+                                  motionEnter={true}
+                                  motionLeave={true}
+                                  motionName="show-help"
+                                  onLeaveEnd={[Function]}
+                                  removeOnLeave={true}
+                                  visible={false}
+                                />
+                              </ForwardRef>
+                            </div>
+                          </Col>
+                        </FormItemInput>
+                      </div>
+                    </Row>
+                  </Field>
+                </WrapperField>
+              </FormItem>
+              <FormItem
+                label="Email"
+                name="email"
+                rules={
+                  Array [
+                    Object {
+                      "required": true,
+                    },
+                    Object {
+                      "type": "email",
+                    },
+                  ]
+                }
+              >
+                <WrapperField
+                  label="Email"
+                  messageVariables={
+                    Object {
+                      "label": "Email",
+                    }
+                  }
+                  name="email"
+                  onReset={[Function]}
+                  rules={
+                    Array [
+                      Object {
+                        "required": true,
+                      },
+                      Object {
+                        "type": "email",
+                      },
+                    ]
+                  }
+                  trigger="onChange"
+                  validateTrigger="onChange"
+                >
+                  <Field
+                    key="_email"
+                    label="Email"
+                    messageVariables={
+                      Object {
+                        "label": "Email",
+                      }
+                    }
+                    name={
+                      Array [
+                        "email",
+                      ]
+                    }
+                    onReset={[Function]}
+                    rules={
+                      Array [
+                        Object {
+                          "required": true,
+                        },
+                        Object {
+                          "type": "email",
+                        },
+                      ]
+                    }
+                    trigger="onChange"
+                    validateTrigger="onChange"
+                    valuePropName="value"
+                  >
+                    <Row
+                      className="ant-form-item"
+                      key="row"
+                    >
+                      <div
+                        className="ant-row ant-form-item"
+                        style={Object {}}
+                      >
+                        <FormItemLabel
+                          htmlFor="email"
+                          label="Email"
+                          name="email"
+                          prefixCls="ant-form"
+                          required={true}
+                          requiredMark={true}
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "type": "email",
+                              },
+                            ]
+                          }
+                        >
+                          <Col
+                            className="ant-form-item-label"
+                          >
+                            <div
+                              className="ant-col ant-form-item-label"
+                              style={Object {}}
+                            >
+                              <label
+                                className="ant-form-item-required"
+                                htmlFor="email"
+                                title="Email"
+                              >
+                                Email
+                              </label>
+                            </div>
+                          </Col>
+                        </FormItemLabel>
+                        <FormItemInput
+                          errors={Array []}
+                          label="Email"
+                          name={
+                            Array [
+                              "email",
+                            ]
+                          }
+                          onDomErrorVisibleChange={[Function]}
+                          prefixCls="ant-form"
+                          rules={
+                            Array [
+                              Object {
+                                "required": true,
+                              },
+                              Object {
+                                "type": "email",
+                              },
+                            ]
+                          }
+                          touched={false}
+                          validateStatus=""
+                          validating={false}
+                        >
+                          <Col
+                            className="ant-form-item-control"
+                          >
+                            <div
+                              className="ant-col ant-form-item-control"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-form-item-control-input"
+                              >
+                                <div
+                                  className="ant-form-item-control-input-content"
+                                >
+                                  <Component
+                                    update={1}
+                                  >
+                                    <Input
+                                      id="email"
+                                      name="email"
+                                      onChange={[Function]}
+                                      placeholder="Enter email"
+                                      type="text"
+                                    >
+                                      <ClearableLabeledInput
+                                        bordered={true}
+                                        element={
+                                          <input
+                                            className="ant-input"
+                                            id="email"
+                                            name="email"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="Enter email"
+                                            type="text"
+                                          />
+                                        }
+                                        focused={false}
+                                        handleReset={[Function]}
+                                        id="email"
+                                        inputType="input"
+                                        name="email"
+                                        onChange={[Function]}
+                                        placeholder="Enter email"
+                                        prefixCls="ant-input"
+                                        triggerFocus={[Function]}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <input
+                                          className="ant-input"
+                                          id="email"
+                                          name="email"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="Enter email"
+                                          type="text"
+                                          value=""
+                                        />
+                                      </ClearableLabeledInput>
+                                    </Input>
+                                  </Component>
+                                </div>
+                              </div>
+                              <ForwardRef
+                                motionAppear={true}
+                                motionDeadline={500}
+                                motionName="show-help"
+                                onLeaveEnd={[Function]}
+                                removeOnLeave={true}
+                                visible={false}
+                              >
+                                <CSSMotion
+                                  internalRef={null}
+                                  motionAppear={true}
+                                  motionDeadline={500}
+                                  motionEnter={true}
+                                  motionLeave={true}
+                                  motionName="show-help"
+                                  onLeaveEnd={[Function]}
+                                  removeOnLeave={true}
+                                  visible={false}
+                                />
+                              </ForwardRef>
+                            </div>
+                          </Col>
+                        </FormItemInput>
+                      </div>
+                    </Row>
+                  </Field>
+                </WrapperField>
+              </FormItem>
+            </form>
+          </ForwardRef(Form)>
+        </SizeContextProvider>
+      </ForwardRef(InternalForm)>
+    </UsersForm>
+  </Connect(UsersForm)>
+</Provider>
+`;
+
+exports[`when page is rendering should render the form 1`] = `
+<ForwardRef(InternalForm)
+  id="users-form"
+  layout="vertical"
+  validateMessages={
+    Object {
+      "number": Object {
+        "range": "\${label} must be between \${min} and \${max} the pattern should be",
+      },
+      "required": "\${label} is required!",
+      "string": Object {
+        "range": "\${label} must be between \${min} and \${max}",
+      },
+      "types": Object {
+        "email": "\${label} is not validate email!",
+        "number": "\${label} is a number",
+        "string": "\${label} is not a validate!",
+      },
+    }
+  }
+>
+  <FormItem
+    label="First Name"
+    name="first_name"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+        Object {
+          "max": 30,
+          "min": 3,
+          "type": "string",
+        },
+      ]
+    }
+  >
+    <Input
+      id="first_name"
+      name="first_name"
+      onChange={[Function]}
+      placeholder="Enter first name"
+      type="text"
+      value="jyoti"
+    />
+  </FormItem>
+  <FormItem
+    label="Last Name"
+    name="last_name"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+        Object {
+          "max": 30,
+          "min": 3,
+          "type": "string",
+        },
+      ]
+    }
+  >
+    <Input
+      id="last_name"
+      name="last_name"
+      onChange={[Function]}
+      placeholder="Enter last name"
+      type="text"
+      value="hhd"
+    />
+  </FormItem>
+  <FormItem
+    label="Address"
+    name="address"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+        Object {
+          "max": 30,
+          "min": 3,
+          "type": "string",
+        },
+      ]
+    }
+  >
+    <Input
+      id="address"
+      name="address"
+      onChange={[Function]}
+      placeholder="Enter address"
+      type="text"
+      value="hhd"
+    />
+  </FormItem>
+  <FormItem
+    label="Username"
+    name="username"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+        Object {
+          "max": 30,
+          "min": 3,
+          "type": "string",
+        },
+      ]
+    }
+  >
+    <Input
+      id="username"
+      name="username"
+      onChange={[Function]}
+      placeholder="Enter username"
+      type="text"
+      value="hhd"
+    />
+  </FormItem>
+  <FormItem
+    label="Mobile"
+    name="mobile"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+        Object {
+          "max": 10,
+        },
+        Object {
+          "message": "Please enter valid mobile number !",
+          "pattern": /\\[2-9\\]\\{2\\}\\\\d\\{8\\}/,
+        },
+      ]
+    }
+  >
+    <Input
+      id="mobile"
+      name="mobile"
+      onChange={[Function]}
+      placeholder="Enter mobile number"
+      type="text"
+      value={8521479630}
+    />
+  </FormItem>
+  <FormItem
+    label="Email"
+    name="email"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+        Object {
+          "type": "email",
+        },
+      ]
+    }
+  >
+    <Input
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Enter email"
+      type="text"
+      value="jytahsdghgh544.com"
+    />
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

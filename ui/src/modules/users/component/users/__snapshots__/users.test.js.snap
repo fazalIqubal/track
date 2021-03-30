@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when page is rendering should render the form 1`] = `
+<div
+  className="user-table-container"
+>
+  <h3>
+    Users
+  </h3>
+  <hr />
+  <div
+    className="table-wrapper"
+  >
+    <Row>
+      <Col
+        span={22}
+      >
+        <Input
+          className="search-box"
+          enterButton={true}
+          onChange={[Function]}
+          placeholder="Search "
+          prefix={<ForwardRef(SearchOutlined) />}
+          type="text"
+        />
+      </Col>
+      <Col
+        span={2}
+      >
+        <Button
+          block={false}
+          className="create-user-btn"
+          ghost={false}
+          htmlType="button"
+          loading={false}
+          onClick={[Function]}
+          type="primary"
+        >
+          Create User
+        </Button>
+      </Col>
+    </Row>
+    <TableComponent
+      className="users-table"
+      columns={
+        Array [
+          Object {
+            "className": "columnTitle",
+            "dataIndex": "first_name",
+            "ellipsis": true,
+            "isFilters": true,
+            "key": "first_name",
+            "title": "First Name",
+            "width": 200,
+          },
+          Object {
+            "className": "columnTitle",
+            "dataIndex": "last_name",
+            "ellipsis": true,
+            "isFilters": true,
+            "key": "last_name",
+            "title": "Last Name",
+          },
+          Object {
+            "className": "columnTitle",
+            "dataIndex": "address",
+            "ellipsis": true,
+            "isFilters": true,
+            "key": "address",
+            "title": "Address",
+            "width": 250,
+          },
+          Object {
+            "className": "columnTitle",
+            "dataIndex": "username",
+            "ellipsis": true,
+            "isFilters": true,
+            "key": "username",
+            "title": "Username",
+          },
+          Object {
+            "className": "columnTitle",
+            "dataIndex": "mobile",
+            "isFilters": true,
+            "key": "mobile",
+            "title": "Mobile",
+          },
+          Object {
+            "className": "columnTitle",
+            "dataIndex": "email",
+            "ellipsis": true,
+            "isFilters": true,
+            "key": "email",
+            "title": "Email",
+            "width": 250,
+          },
+          Object {
+            "key": "action",
+            "render": [Function],
+            "title": "",
+          },
+        ]
+      }
+      dataSource={Array []}
+    />
+  </div>
+  <FormSlideout
+    className="user-form-container"
+    form="users-form"
+    formElement={
+      <UNDEFINED
+        isEdit={false}
+      />
+    }
+    onClose={[Function]}
+    primaryBtnEvent={[Function]}
+    primary_button_name="Save"
+    title="Create New User"
+    visible={false}
+  />
+  <FormSlideout
+    className="user-form-container"
+    form="users-form"
+    formElement={
+      <UNDEFINED
+        isEdit={false}
+      />
+    }
+    onClose={[Function]}
+    primaryBtnEvent={[Function]}
+    primary_button_name="Save"
+    title="Edit User"
+    visible={false}
+  />
+</div>
+`;

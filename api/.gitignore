@@ -1,0 +1,6 @@
+node_modules
+.tmp
+bower_components
+app/__pycache__
+*.pyc
+*.sqlite3

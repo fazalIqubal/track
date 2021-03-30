@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when page is rendering should create the snapshot 1`] = `
+<div
+  className="login-container"
+>
+  <div
+    className="banner-container"
+  >
+    <img
+      className="left-banner"
+      src="banner1.png"
+    />
+    <img
+      className="right-banner"
+      src="banner2.png"
+    />
+  </div>
+  <div
+    className="app-logo"
+  >
+    <img
+      src="logo1.png"
+    />
+  </div>
+  <ForwardRef(InternalForm)
+    className="login-form"
+    initialValues={
+      Object {
+        "remember": false,
+      }
+    }
+    name="normal_login"
+    onSubmitCapture={[Function]}
+  >
+    <h6
+      className="login-text"
+    >
+      Log in to your account
+    </h6>
+    <FormItem
+      name="username"
+      rules={
+        Array [
+          Object {
+            "message": "Please input your Username!",
+            "required": true,
+          },
+        ]
+      }
+    >
+      <Input
+        id="name"
+        name="username"
+        onChange={[Function]}
+        placeholder="Username"
+        prefix={
+          <ForwardRef(UserOutlined)
+            className="site-form-item-icon"
+          />
+        }
+        type="text"
+      />
+    </FormItem>
+    <FormItem
+      id="passErr"
+      name="password"
+      rules={
+        Array [
+          Object {
+            "message": "Please input your Password!",
+            "required": true,
+          },
+        ]
+      }
+    >
+      <Input
+        id="password"
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        prefix={
+          <ForwardRef(LockOutlined)
+            className="site-form-item-icon"
+          />
+        }
+        type="password"
+      />
+    </FormItem>
+    <FormItem>
+      <FormItem
+        name="remember"
+        noStyle={true}
+        valuePropName="checked"
+      >
+        <Checkbox
+          id="rememberMe"
+          indeterminate={false}
+        >
+          Remember me
+        </Checkbox>
+      </FormItem>
+      <a
+        className="login-form-forgot"
+        href=""
+        id="forgotPassword"
+      >
+        Forgot password?
+      </a>
+    </FormItem>
+    <FormItem
+      className="singIn-btn"
+    >
+      <Button
+        block={false}
+        className="login-form-button"
+        ghost={false}
+        htmlType="submit"
+        id="signIn"
+        loading={false}
+        type="primary"
+      >
+        Sign in
+      </Button>
+    </FormItem>
+    <FormItem>
+      <span
+        className="register"
+        id="register"
+      >
+        <span>
+          Don't have an account yet?
+        </span>
+        <span>
+          <a
+            href=""
+          >
+             Register now
+          </a>
+        </span>
+      </span>
+    </FormItem>
+  </ForwardRef(InternalForm)>
+</div>
+`;

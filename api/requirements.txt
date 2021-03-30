@@ -1,0 +1,17 @@
+Flask
+Flask-SQLAlchemy
+flask-migrate
+flask-script
+Flask-API
+flask_cors
+flask-bcrypt
+Flask-JWT-Extended
+flask-restx
+bs4
+lxml
+flask_swagger
+psycopg2
+cx-Oracle
+Flask-JWT
+pycryptodomex 
+sendgrid

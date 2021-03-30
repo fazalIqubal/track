@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when page is rendering should render the form 1`] = `
+<Layout
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+  theme="light"
+>
+  <Layout
+    className="site-layout"
+  >
+    <div
+      className="site-layout-background"
+      style={
+        Object {
+          "minHeight": 360,
+          "padding": 24,
+        }
+      }
+    >
+      <div
+        className="sprint-name heading"
+      >
+        Tenants Overview
+      </div>
+      <Row>
+        <Col
+          span={24}
+        >
+          <div
+            className="tenant-overview-cards"
+            span={18}
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col
+          className="left-dash-content"
+          span={16}
+        >
+          <Card
+            className="line-chart"
+          />
+        </Col>
+        <Col
+          className="left-pane"
+          span={8}
+        >
+          <Card
+            className="pie-chart"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col
+          className="left-dash-content"
+          span={16}
+        >
+          <div
+            className="tenants-list-container"
+          />
+        </Col>
+        <Col
+          className="left-dash-content"
+          span={8}
+        >
+          <div
+            className="membershipPlan-container"
+          />
+        </Col>
+      </Row>
+    </div>
+  </Layout>
+</Layout>
+`;

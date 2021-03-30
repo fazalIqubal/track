@@ -1,0 +1,79 @@
+.SlideModal{
+    width: 30%;
+}
+.form-container{
+    padding: 10px;
+    .ant-form-item{
+        margin-bottom: 10px;
+        input{
+            border-radius: 5px;
+        }
+    }
+   
+}
+.SlideModal__title{
+    width: 100%;
+    .slideout-header{
+        display: inline-block;
+        width: 95%;
+        h4{
+            display: inline-block;
+        }
+        div{
+            float: right;
+            display: inline-block;
+        }
+    }
+}
+.error-msg{
+    border: 1px solid #ff000047;
+    background-color: #ff00000d;
+    padding: 7px;
+    width: 80%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.ant-form-item-label{
+    padding: 0 !important;
+}
+.create-tenant-form-btn{
+    background-color: #41b3a3;
+    border-color: #41b3a3;
+}
+.create-tenant-form-btn:hover{
+    background-color: #41b3a3;
+    border-color: #41b3a3;
+}
+.cancel-btn:hover{
+    border-color: #41b3a3;
+    color: #41b3a3;
+}
+
+.ant-input, .ant-btn{
+    border-radius: 5px;
+}
+.ant-drawer-body{
+    padding: 10px 24px 24px 24px;
+}
+.ant-form-item{
+    margin-bottom: 12px;
+}
+.h-overflowAuto{
+    background-color: white;
+}
+
+.SlideModal--close.SlideModal--right {
+    animation: slideOut--right 2s ease-out forwards;
+}
+
+.SlideModal--close.SlideModal--left {
+    animation: slideOut--left 2s ease-out forwards;
+}
+.SlideModal--open.SlideModal--right {
+    animation: slideIn--right 0.5s ease-out forwards;
+}
+
+.SlideModal--open.SlideModal--left {
+    animation: slideIn--left 0.5s ease-out forwards;
+}

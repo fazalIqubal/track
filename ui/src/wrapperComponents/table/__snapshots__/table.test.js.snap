@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component test case should render correctly 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "issueId",
+        "key": "issueId",
+        "render": [Function],
+        "title": "Issue ID",
+      },
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "title",
+        "filters": Array [
+          Object {
+            "text": "Issue #1",
+            "value": "Issue #1",
+          },
+          Object {
+            "text": "Issue #2",
+            "value": "Issue #2",
+          },
+          Object {
+            "text": "Issue #3",
+            "value": "Issue #3",
+          },
+        ],
+        "isFilters": true,
+        "key": "title",
+        "onFilter": [Function],
+        "title": "Title",
+      },
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "issueStatus",
+        "filters": Array [
+          Object {
+            "text": "Open",
+            "value": "Open",
+          },
+          Object {
+            "text": "In-Progress",
+            "value": "In-Progress",
+          },
+          Object {
+            "text": "Open",
+            "value": "Open",
+          },
+        ],
+        "isFilters": true,
+        "key": "issueStatus",
+        "onFilter": [Function],
+        "title": "Issue Status",
+      },
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "tags",
+        "key": "tags",
+        "render": [Function],
+        "title": "Priority",
+      },
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "issueType",
+        "key": "issueType",
+        "title": "Issue Type",
+      },
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "issueReporter",
+        "key": "issueReporter",
+        "title": "Reporter",
+      },
+      Object {
+        "className": "columnTitle",
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Assigned To",
+      },
+    ]
+  }
+  dataSource={
+    Array [
+      Object {
+        "issueId": "001",
+        "issueReporter": "Chetan Dhami",
+        "issueStatus": "Open",
+        "issueType": "Defect",
+        "key": "1",
+        "name": "John Brown",
+        "tags": Array [
+          "Medium",
+        ],
+        "title": "Issue #1",
+      },
+      Object {
+        "issueId": "002",
+        "issueReporter": "Yogesh Dhami",
+        "issueStatus": "In-Progress",
+        "issueType": "UI Fix",
+        "key": "2",
+        "name": "John Brown",
+        "tags": Array [
+          "Low",
+        ],
+        "title": "Issue #2",
+      },
+      Object {
+        "issueId": "001",
+        "issueReporter": "Chetan Dhami",
+        "issueStatus": "Open",
+        "issueType": "New Feature",
+        "name": "John Brown",
+        "tags": Array [
+          "High",
+        ],
+        "title": "Issue #3",
+      },
+    ]
+  }
+  onChange={[Function]}
+  pagination={
+    Object {
+      "hideOnSinglePage": true,
+    }
+  }
+  rowKey="key"
+/>
+`;

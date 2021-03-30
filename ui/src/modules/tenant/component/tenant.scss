@@ -1,0 +1,48 @@
+.tenant-table-container{
+    margin: auto;
+    margin-top: 75px;
+    width: 95%;
+    hr{
+        margin-top: 3px;
+    }
+    .table-wrapper{
+        border: 1px solid #dfdfdf;
+        background-color: white;
+        .create-tenant-btn{
+            float: right;
+            z-index: 1;
+            margin: 15px;       
+        }
+    }
+    .ant-form-item-label{
+        padding: 0;
+    }.ant-drawer-title{
+        font-size: 17px;
+        font-weight: 600;
+        color: #5d5d5d;
+    }
+    .create-tenant-btn{
+        background-color: #41b3a3;
+        border-color: #41b3a3;
+    }
+
+}
+.ant-table-pagination.ant-pagination{
+    margin: 16px 16px;
+}
+
+.ant-alert{
+    width: 30%;
+    position: absolute;
+    bottom: 20px;
+    right: 32px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.error{
+    color: red;
+}

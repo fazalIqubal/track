@@ -1,0 +1,121 @@
+@import './variables.scss';
+
+.App-header {
+  background-color: $primary-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.tenant-overview-cards{
+  margin-bottom: 40px;
+  .icon-img{
+    height: 100%;
+  }
+}
+.oloid-box{
+  padding: 25px;
+
+  img{
+    height: 70px;
+    float: left;
+  }
+  
+  .text-oloid{
+    font-family: nunito-bold;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    color: rgb(46, 57, 75);
+  }
+}
+
+.btn-save{
+  background: transparent linear-gradient(180deg, #249AF3 0%, #007DDC 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #0B87E4;
+  border-radius: 3px !important;
+  opacity: 1;
+  font-family: "nunito-black";
+  width: 90px;
+  font-size: 11px;
+  color: #fff;
+  height: 32px;
+  cursor: pointer;
+}
+
+
+.del-box{
+  border: 1px solid #FF9900;
+  padding: 20px;
+  min-height: 85px;
+  .icon-container{
+    padding: 5px;
+    .warnnig-icon{
+      width: 50px;
+      height: 50px;
+      background-size: 50px;
+      position: relative;
+      left: 5px;
+    }
+    
+  }
+  .warrning-msg{
+    padding-top: 10px;
+    padding-left: 10px;
+    .warnnig-text{
+      color: #363636;
+      font-size: 20px;
+      font-family: $font-family-nunito-semiBold;
+    }
+    .warnnig-sub-text{
+      color: #798AA0;
+      font-size: 11px;
+      font-family: $font-family-nunito-italic;
+      line-height: 14px;
+    }
+  }
+
+  .btn-cantainer{
+    .btn-delete{
+      padding: 5px 35px;
+      height: 34px;
+      color: #fff;
+      letter-spacing: 1px;
+      margin: 13px 0px;
+      background: transparent linear-gradient(180deg, #F5566C 0%, #F12836 100%) 0% 0% no-repeat padding-box;
+      box-shadow: 0px 2px 5px #0000001A;
+      border: 1px solid #E53C42;
+      border-radius: 3px;
+      font-family: "nunito-black";
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+  
+}
+
+.ui_block.ui-block-loader{
+  display: none;
+}
+.ui-block-loader{
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff87;
+}
+.heading{
+  font-family: "nunito-regular", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.listing-font-size{
+  font-size: 15px;
+}

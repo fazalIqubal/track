@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When Pie Chart card render renders correctly  1`] = `
+<div
+  className="pieChart"
+>
+  <div
+    height="auto"
+    id="chartOptions"
+    options={
+      Object {
+        "chart": Object {
+          "type": "pie",
+          "width": 280,
+        },
+        "colors": Array [
+          "Green",
+          "Red",
+          "Yellow",
+        ],
+        "labels": Array [
+          "Active",
+          "Inactive",
+          "Delete",
+        ],
+        "legend": Object {
+          "fontSize": "16px",
+          "position": "bottom",
+        },
+        "noData": Object {
+          "align": "center",
+          "text": "No statistics available for tenants.",
+          "verticalAlign": "middle",
+        },
+        "responsive": Array [
+          Object {
+            "breakpoint": 280,
+            "options": Object {
+              "chart": Object {
+                "width": 200,
+              },
+              "legend": Object {
+                "position": "center",
+              },
+            },
+          },
+        ],
+        "title": Object {
+          "align": "left",
+          "text": "Tenants Statistics",
+        },
+      }
+    }
+    series={
+      Array [
+        44,
+        55,
+        13,
+      ]
+    }
+    type="pie"
+    width="100%"
+  />
+</div>
+`;

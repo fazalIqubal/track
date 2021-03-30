@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly should render correctly  1`] = `
+<Card>
+  <Row>
+    <Col
+      span={12}
+    >
+      <withConfigConsumer(Statistic) />
+    </Col>
+    <Col
+      className="card-icon"
+      span={12}
+    >
+      <img
+        className="icon-img"
+      />
+    </Col>
+  </Row>
+</Card>
+`;

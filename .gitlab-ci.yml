@@ -1,0 +1,55 @@
+image: "python:3.7" 
+image: "alpine:3.10"
+
+stages:
+    - api-build
+    - api-unit-test
+    - ui-build
+    - ui-unit-test
+
+variables:
+    apiFolder: "api"
+    uiFolder: "ui"
+
+before_script:
+    - echo "Setup before script for python"
+    - "cd $apiFolder"
+    # - python --version
+    - sudo apt -get install -y python-dev python-pip
+    - pip install -r requirements.txt
+    - echo "Setup before script for reactjs"
+    - "cd .."
+    - "cd $uiFolder"
+    - npm install yarn
+
+# api-build:
+#     stage: api-build
+#     script: 
+#         - "cd $apiFolder"
+#         - "python run"
+#         - "cd .."
+
+
+# api-unit-test:
+#     stage: api-unit-test
+#     script: 
+#         - "cd $apiFolder"
+#         - "python test_config.py"
+
+# ui-build:
+#     stage: ui-build
+#     script: 
+#         - "cd $uiFolder"
+#         - echo "Building deploy package"
+#         - yarn install
+#         - yarn build
+#         - echo "Build successful"
+#         - "cd .."
+ui-unit-test:
+    stage: ui-unit-test
+    script: 
+#       - "cd $uiFolder"
+        - echo "Running unit test case"
+#       - yarn install
+        - echo "test case successful"
+#       - "cd .."

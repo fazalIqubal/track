@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly should render correctly  1`] = `
+<Space
+  size="middle"
+>
+  <Dropdown
+    mouseEnterDelay={0.15}
+    mouseLeaveDelay={0.1}
+    overlay={
+      <Menu>
+        <MenuItem>
+          Edit
+        </MenuItem>
+        <MenuItem>
+          Delete
+        </MenuItem>
+      </Menu>
+    }
+  >
+    <a
+      className="ant-dropdown-link"
+      onClick={[Function]}
+    >
+      <ForwardRef(EllipsisOutlined) />
+    </a>
+  </Dropdown>
+</Space>
+`;
